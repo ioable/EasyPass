@@ -1,0 +1,44 @@
+.el-container {
+  width: 100%;
+  height: 100%;
+
+  .el-menu {
+    height: 100% !important;
+  }
+}
+
+.el-main, .el-header {
+  padding: 0;
+}
+
+
+.el-breadcrumb {
+  display: inline-block;
+}
+
+/*右上角的个人信息字体*/
+.el-dropdown-link {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.el-tag {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 .5px .5px gray;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/deep/ .el-card__body {
+  padding: 10px;
+}
+
+/*  tag的高亮*/
+.active {
+  background-color: rgb(121, 162, 183);
+  color: rgb(255, 255, 255);
+}
